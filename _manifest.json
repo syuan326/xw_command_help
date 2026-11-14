@@ -5,13 +5,15 @@
   "name": "鸣潮指令教学",
   "description": "检索鸣潮（Wuthering Waves）机器人指令用法：XutheringWavesUID 本体查询、ScoreEcho 声骸评分、RoverSign 库街区签到。只教不执行，示例按实例前缀拼接。",
   "author": {
-    "name": "rmiao-bot"
+    "name": "rmiao-bot",
+    "url": "https://github.com/yiwuerxin"
   },
   "license": "GPL-v3.0-or-later",
   "urls": {
-    "repository": "",
-    "homepage": "",
-    "documentation": ""
+    "repository": "https://github.com/yiwuerxin/rmiao-bot",
+    "homepage": "https://github.com/yiwuerxin/rmiao-bot",
+    "documentation": "https://github.com/yiwuerxin/rmiao-bot/tree/main/examples/plugin_xutheringwaves_help",
+    "issues": "https://github.com/yiwuerxin/rmiao-bot/issues"
   },
   "changelog": "CHANGELOG.md",
   "host_application": {
@@ -25,5 +27,11 @@
   "dependencies": [],
   "capabilities": [
     "config.get"
-  ]
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  }
 }

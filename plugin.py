@@ -94,6 +94,16 @@ class XwCommandHelpPlugin(MaiBotPlugin):
         """插件卸载。"""
         self.ctx.logger.info("鸣潮指令教学已卸载")
 
+    async def on_config_update(self, scope: str, config_data: Dict[str, Any], version: str) -> None:
+        """配置热更新：宿主已重建强类型实例，这里无需额外处理。
+
+        Args:
+            scope: 配置变更范围。
+            config_data: 最新配置数据。
+            version: 配置版本号。
+        """
+        del scope, config_data, version
+
     def _config_dict(self) -> Dict[str, Any]:
         """把强类型配置转成检索层使用的字典。"""
         return self.config.model_dump()
@@ -231,3 +241,13 @@ class XwCommandHelpPlugin(MaiBotPlugin):
                 return result
         result.insert(0, {"role": "system", "content": note.strip()})
         return result
+
+
+def create_plugin() -> XwCommandHelpPlugin:
+    """创建鸣潮指令教学插件实例。
+
+    Returns:
+        XwCommandHelpPlugin: 新的插件实例。
+    """
+
+    return XwCommandHelpPlugin()
