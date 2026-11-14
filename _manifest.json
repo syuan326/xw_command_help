@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "id": "local.xw-command-help",
+  "version": "0.1.0",
+  "name": "鸣潮指令教学",
+  "description": "检索鸣潮（Wuthering Waves）机器人指令用法：XutheringWavesUID 本体查询、ScoreEcho 声骸评分、RoverSign 库街区签到。只教不执行，示例按实例前缀拼接。",
+  "author": {
+    "name": "rmiao-bot"
+  },
+  "license": "GPL-v3.0-or-later",
+  "urls": {
+    "repository": "",
+    "homepage": "",
+    "documentation": ""
+  },
+  "changelog": "CHANGELOG.md",
+  "host_application": {
+    "min_version": "1.3.0",
+    "max_version": "1.4.99"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "config.get"
+  ]
+}
