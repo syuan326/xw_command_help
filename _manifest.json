@@ -10,10 +10,10 @@
   },
   "license": "GPL-v3.0-or-later",
   "urls": {
-    "repository": "https://github.com/yiwuerxin/rmiao-bot",
-    "homepage": "https://github.com/yiwuerxin/rmiao-bot",
-    "documentation": "https://github.com/yiwuerxin/rmiao-bot/tree/main/examples/plugin_xutheringwaves_help",
-    "issues": "https://github.com/yiwuerxin/rmiao-bot/issues"
+    "repository": "https://github.com/syuan326/xw_command_help",
+    "homepage": "https://github.com/syuan326/xw_command_help",
+    "documentation": "https://github.com/syuan326/xw_command_help/blob/main/README.md",
+    "issues": "https://github.com/syuan326/xw_command_help/issues"
   },
   "changelog": "CHANGELOG.md",
   "host_application": {
